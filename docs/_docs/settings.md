@@ -8,7 +8,8 @@ You can also set the configuration like `seed`, `width`, `height`, `num_outputs`
 
 Use the same `seed` number to get the same image for a certain prompt. This is useful for refining a prompt without losing the basic image design. Enable the `random images` checkbox to get random images.
 
-![image](https://github.com/easydiffusion/easydiffusion.github.io/assets/844287/78544581-03c6-4a28-9faf-0116d8533721)
+![image](https://github.com/easydiffusion/easydiffusion.github.io/assets/844287/683c2f7b-655c-4aa0-86f4-8218f5db3a71)
+
 
 
 # System Settings
