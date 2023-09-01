@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div class="header-container jumbotron">
-    <div class="container">
+<div class="header-container jumbotron" style="background-image: url(/assets/img/bg.webp)">
+    <div class="container" style="background: url(/assets/img/transparent_bg.png); border-radius: 12pt;">
         <h1>Easy Diffusion</h1>
-        <p>A simple 1-click way to install and use Stable Diffusion on your own computer. No dependencies or technical knowledge required.</p>
-        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | relative_url }}" role="button">Learn more</a>
-	   <a class="btn btn-primary btn-lg" href="{{ "/docs/installation/" | relative_url }}" role="button">Download</a>
+        <p>A simple 1-click way to create beautiful images on your computer, by installing Stable Diffusion. No dependencies or technical knowledge required.</p>
+        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | relative_url }}" role="button" style="background: #565657; border: 1px solid #776969">Learn more</a>
+	   <a class="btn btn-primary btn-lg" href="{{ "/docs/installation/" | relative_url }}" role="button" style="background: #5300b8; border: 1px solid #763cbb;">Download</a>
 	</p>
     </div>
 </div>
@@ -16,7 +16,7 @@ layout: default
     <div class="row">
         <div class="col-md-6">
             <h2 class="header-light regular-pad">What is Easy Diffusion?</h2>
-              <p class="lead">
+              <p class="lead" style="font-size: 14pt">
 	      Easy Diffusion is an easy to install and use distribution of <a href="https://github.com/CompVis/stable-diffusion">Stable Diffusion</a>, 
 	      the leading open source text-to-image AI software.
 	      Easy Diffusion installs all required software components required to run Stable Diffusion <strong>plus</strong> its own user friendly
@@ -24,7 +24,7 @@ layout: default
 	      </p>
         </div>
         <div class="col-md-6 text-center">
-            <img src="{{ "/media/shot-v9.jpg" | relative_url }}" alt="screenshot" class="img-responsive">
+            <img src="{{ "/assets/img/splash.webp" | relative_url }}" alt="screenshot" class="img-responsive">
         </div>
     </div>
     <hr>
@@ -39,7 +39,7 @@ layout: default
             <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
             <h3 class="text-center">Make images</h3>
             <p>
-	    <a href="https://github.com/cmdr2/stable-diffusion-ui/wiki/How-to-Use">Make beautiful images</a> from your text prompts or use images to direct the AI.
+	    <a href="https://github.com/easydiffusion/easydiffusion/wiki/How-to-Use">Make beautiful images</a> from your text prompts or use images to direct the AI.
 	    </p>
         </div>
         <div class="col-sm-4">
