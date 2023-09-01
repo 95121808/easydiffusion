@@ -20,7 +20,7 @@ You do not need anything else. You do not need WSL, Docker or Conda. The install
 This will automatically install Easy Diffusion, set it up, and start the interface. No additional steps are needed.
 
 ### Linux
-1. [**Download** for Linux](https://github.com/cmdr2/stable-diffusion-ui/releases/download/v2.5.24/Easy-Diffusion-Linux.zip)
+1. [**Download** for Linux](https://github.com/cmdr2/stable-diffusion-ui/releases/latest/download/Easy-Diffusion-Linux.zip)
 
 2. **Extract**:
   - Extract the file with your favourite file manager, or use `unzip Easy-Diffusion-Linux.zip` in a terminal.
